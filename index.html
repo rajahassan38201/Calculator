@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h2>My Calculator</h2>
+            <div class="input">
+                <!-- <input class="in" type="text"> -->
+                <input type="text" onkeydown="return false" />
+            </div>
+            <div class="btns">
+                <button class="btn" id="btns" value="sin">sin</button>
+                <button class="btn" id="btnc" value="cos">cos</button>
+                <button class="btn" id="btnt" value="tan">tan</button>
+                <button class="btn" id="btnp" value="**">**</button>
+                <button class="btn" id="btnmul" value="*">*</button>
+                <button class="btn" id="btn6" value="6">6</button>
+                <button class="btn" id="btn7" value="7">7</button>
+                <button class="btn" id="btn8" value="8">8</button>
+                <button class="btn" id="btn9" value="9">9</button>
+                <button class="btn" id="btndiv" value="/">/</button>
+                <button class="btn" id="btn2" value="2">2</button>
+                <button class="btn" id="btn3" value="3">3</button>
+                <button class="btn" id="btn4" value="4">4</button>
+                <button class="btn" id="btn5" value="5">5</button>
+                <button class="btn" id="btnsum" value="+">+</button>
+                <button class="btn" id="btnpt" value=".">.</button>
+                <button class="btn" id="btn0" value="0">0</button>
+                <button class="btn" id="btn1" value="1">1</button>
+                <button class="btn" id="btneq" value="=">=</button>
+                <button class="btn" id="btnsub" value="-">-</button>            
+            </div>
+            <button class="bt" id="clr">Clear</button>
+            <button class="bt" id="bk">Back</button>
+            <button class="bt" id="mode"><i class="fa-regular fa-sun"></i></button>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
